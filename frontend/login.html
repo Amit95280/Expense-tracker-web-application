@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Expense Tracker - Login</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+<body class="auth-page">
+
+    <!-- =========================
+         AUTH CONTAINER
+    ========================== -->
+
+    <div class="auth-container">
+
+        <div class="auth-card">
+
+
+            <!-- =========================
+                 LOGO
+            ========================== -->
+
+            <div class="auth-logo">
+
+                <div class="auth-logo-icon">
+                    ₹
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 HEADING
+            ========================== -->
+
+            <div class="auth-header">
+
+                <h1>
+                    Welcome Back
+                </h1>
+
+                <p>
+                    Login to manage your expenses
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 LOGIN FORM
+            ========================== -->
+
+            <form id="loginForm">
+
+
+                <!-- EMAIL -->
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <div class="input-wrapper">
+
+                        <span class="input-icon">
+                            ✉
+                        </span>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email"
+                            autocomplete="email"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- PASSWORD -->
+
+                <div class="form-group">
+
+                    <label for="password">
+                        Password
+                    </label>
+
+                    <div class="input-wrapper">
+
+                        <span class="input-icon">
+                            🔒
+                        </span>
+
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Enter your password"
+                            autocomplete="current-password"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- LOGIN BUTTON -->
+
+                <button
+                    type="submit"
+                    class="auth-btn"
+                >
+                    Login
+                </button>
+
+
+            </form>
+
+
+            <!-- =========================
+                 REGISTER LINK
+            ========================== -->
+
+            <div class="auth-footer">
+
+                <span>
+                    Don't have an account?
+                </span>
+
+                <a href="register.html">
+                    Create an account
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <script src="js/api.js"></script>
+
+    <script src="js/auth.js"></script>
+
+</body>
+
+</html>
